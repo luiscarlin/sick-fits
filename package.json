@@ -2,7 +2,7 @@
   "name": "sick-fits",
   "private": true,
   "workspaces": [
-    "apps"
+    "apps/*"
   ],
   "engines": {
     "npm": "please-use-yarn",
