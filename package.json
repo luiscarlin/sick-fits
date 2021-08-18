@@ -7,5 +7,6 @@
   "engines": {
     "npm": "please-use-yarn",
     "yarn": "3.0.1"
-  }
+  },
+  "scripts": {}
 }
