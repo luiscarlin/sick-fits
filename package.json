@@ -1,0 +1,11 @@
+{
+  "name": "sick-fits",
+  "private": true,
+  "workspaces": [
+    "apps"
+  ],
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": "3.0.1"
+  }
+}
