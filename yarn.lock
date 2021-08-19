@@ -267,6 +267,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sick-fits/web@workspace:apps/web":
+  version: 0.0.0-use.local
+  resolution: "@sick-fits/web@workspace:apps/web"
+  dependencies:
+    "@types/react": 17.0.18
+    eslint: 7.32.0
+    eslint-config-next: 11.1.0
+    eslint-config-prettier: ^8.3.0
+    next: 11.1.0
+    prettier: ^2.3.2
+    react: 17.0.2
+    react-dom: 17.0.2
+    typescript: 4.3.5
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
@@ -1508,6 +1524,17 @@ __metadata:
     typescript:
       optional: true
   checksum: 763dd4fc7d7062c518069c7a94a5bc3119af5c358f410eaa969446b03465a584fe0a19876ecf3b13a8e490ee047e4ca272a87729a4df30373386a4c5d147b2a7
+  languageName: node
+  linkType: hard
+
+"eslint-config-prettier@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "eslint-config-prettier@npm:8.3.0"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: df4cea3032671995bb5ab07e016169072f7fa59f44a53251664d9ca60951b66cdc872683b5c6a3729c91497c11490ca44a79654b395dd6756beb0c3903a37196
   languageName: node
   linkType: hard
 
@@ -3555,6 +3582,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"prettier@npm:^2.3.2":
+  version: 2.3.2
+  resolution: "prettier@npm:2.3.2"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 17ce5784ac67621c292df58e2da60b2ee150c2d6aebea22a6ad9e52fcd6a5e66c349d0a8436ea3bd8ff9d778920a5f68000d7625b74f43558718a49755aa5259
+  languageName: node
+  linkType: hard
+
 "process-nextick-args@npm:~2.0.0":
   version: 2.0.1
   resolution: "process-nextick-args@npm:2.0.1"
@@ -4785,20 +4821,6 @@ typescript@4.3.5:
   checksum: 4a2d7ed1b441814b232db9c065beaee40ad0e37f77279331d663fa950b6b1926210a8dfa6009dc806b248f15d48826c9c6ce1a7fd6e6c94178d13c6c0a33f32c
   languageName: node
   linkType: hard
-
-"web@workspace:apps/web":
-  version: 0.0.0-use.local
-  resolution: "web@workspace:apps/web"
-  dependencies:
-    "@types/react": 17.0.18
-    eslint: 7.32.0
-    eslint-config-next: 11.1.0
-    next: 11.1.0
-    react: 17.0.2
-    react-dom: 17.0.2
-    typescript: 4.3.5
-  languageName: unknown
-  linkType: soft
 
 "webidl-conversions@npm:^4.0.2":
   version: 4.0.2
