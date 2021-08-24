@@ -414,6 +414,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@sick-fits/web@workspace:apps/web"
   dependencies:
+    "@types/nprogress": ^0.2.0
     "@types/react": 17.0.18
     "@types/styled-components": ^5.1.12
     babel-plugin-styled-components: ^1.13.2
@@ -421,6 +422,7 @@ __metadata:
     eslint-config-next: 11.1.0
     eslint-config-prettier: ^8.3.0
     next: 11.1.0
+    nprogress: ^0.2.0
     prettier: ^2.3.2
     react: 17.0.2
     react-dom: 17.0.2
@@ -450,6 +452,13 @@ __metadata:
   version: 16.6.1
   resolution: "@types/node@npm:16.6.1"
   checksum: c13aa0da0c2bf9070e521d1b537ba38f64b213dd1b8aeec66c279fc21f8c0ccaf380364f6dc2ec8f84440c4cd1460b67dfe47de2cafcb6eaf4b648817cb27dc4
+  languageName: node
+  linkType: hard
+
+"@types/nprogress@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@types/nprogress@npm:0.2.0"
+  checksum: 561384775008ae58111f038f8f9468b3de8987cd753feef9bf6d07af0e1343390d492a078bb08a7b53ac7370208e31e06ac069cb852c435d49f5fe218e9769c4
   languageName: node
   linkType: hard
 
@@ -3461,6 +3470,13 @@ fsevents@~2.3.1:
     gauge: ~2.7.3
     set-blocking: ~2.0.0
   checksum: edbda9f95ec20957a892de1839afc6fb735054c3accf6fbefe767bac9a639fd5cea2baeac6bd2bcd50a85cb54924d57d9886c81c7fbc2332c2ddd19227504192
+  languageName: node
+  linkType: hard
+
+"nprogress@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "nprogress@npm:0.2.0"
+  checksum: 66b7bec5d563ecf2d1c3d2815e6d5eb74ed815eee8563e0afa63d3f185ab1b9cf2ddd97e1ded263b9995c5019d26d600320e849e50f3747984daa033744619dc
   languageName: node
   linkType: hard
 
